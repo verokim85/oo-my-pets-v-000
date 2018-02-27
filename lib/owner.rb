@@ -68,8 +68,6 @@ class Owner
   #   end
 
 
-
-
   def list_pets
     dog = self.pets[:dogs].count
     cat = self.pets[:cats].count
