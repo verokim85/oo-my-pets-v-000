@@ -60,7 +60,7 @@ class Owner
   end
 
   def sell_pets
-    self.pets.mood = "nervous"
+    self.pets[:fishes][0].mood = "nervous"
   end
 
 
