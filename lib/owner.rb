@@ -56,7 +56,7 @@ class Owner
   end
 
   def feed_fish
-    self.pets[:fish][0].mood = "happy"
+    self.pets[:fishes][0].mood = "happy"
   end
 
 
