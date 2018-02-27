@@ -47,7 +47,7 @@ class Owner
   end
 
   def walk_dogs
-  p  self.pets[:dogs][2]=("happy")
+  p  self.pets[:dogs][2]<<("happy")
   end
 
 
