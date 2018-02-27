@@ -64,7 +64,7 @@ class Owner
       arr.each do |type_new|
         type_new.mood = "nervous"
       end
-      if self.pets.mood == "nervous"
+      if self.pets.[:fishes].arr== "nervous"
         self.pets.shift
     end
   end
