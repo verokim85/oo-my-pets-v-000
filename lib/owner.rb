@@ -66,6 +66,7 @@ class Owner
       end
     p  type = []
     end
+    p self.pets
 end
 
 
