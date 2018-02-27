@@ -65,7 +65,6 @@ class Owner
         type_new.mood = "nervous"
       end
     end
-    
 end
 
 
