@@ -49,7 +49,7 @@ class Owner
 
   def walk_dogs
     buy_dog(name)
-    if self.walk_dogs
+    if self.walk_dogs(name)
       @mood = happy
   end
 end
