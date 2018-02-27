@@ -63,7 +63,7 @@ class Owner
     if self.pets.each {|type, mood|
         type.empty? == true}
       self.pets.each {|type, mood|
-       p @pets.mood = "nervous"}
+       p self.pets.mood = "nervous"}
       end
     end
 
