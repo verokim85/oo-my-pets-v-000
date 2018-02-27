@@ -10,6 +10,7 @@ class Owner
     @@all << self
     @species = "human"
     @pets = {fishes: [], dogs: [], cats: []}
+    @ mood = mood
   end
 
   def self.all
