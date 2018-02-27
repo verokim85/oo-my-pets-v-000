@@ -59,14 +59,19 @@ class Owner
     self.pets[:fishes][0].mood = "happy"
   end
 
-  def sell_pets
-    if self.pets.each {|type, mood|
-        type.empty? == true}
-      self.pets.each {|type, mood|
-       p self.pets.mood = "nervous"}
-      end
-    end
+  def list_pets
+    
+  end 
 
+  # def sell_pets
+  #   if self.pets.each {|type, mood|
+  #       type.empty? == true}
+  #     self.pets.each {|type, mood|
+  #      p self.pets.mood = "nervous"}
+  #     end
+  #   end
+
+    
 
 
 
