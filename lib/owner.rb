@@ -60,7 +60,9 @@ class Owner
   end
 
   def list_pets
-    dog = pets[:dogs].count
+
+  p  dog = buy_dog
+    # dog = pets[:dogs].count
     cat = pets[:cats].count
     fish = pets[:fishes].count
 
