@@ -47,6 +47,7 @@ class Owner
   end
 
 
-  def 
+  def walk_dogs 
+    
 
 end
