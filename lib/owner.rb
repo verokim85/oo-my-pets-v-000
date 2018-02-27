@@ -60,11 +60,11 @@ class Owner
   end
 
   def sell_pets
-    if self.pets.each {|type, pet|} pet = 0
+    if self.pets.each {|type, pet| pet = 0}
         type = "nervous"
       end
     end
-  end
+
 
 
 
