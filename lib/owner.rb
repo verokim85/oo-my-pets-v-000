@@ -59,14 +59,6 @@ class Owner
     self.pets[:fishes][0].mood = "happy"
   end
 
-  def list_pets
-    dog = self.pets[:dogs].count
-    cat = self.pets[:cats].count
-    fish = self.pets[:fishes].count
-
-   return "I have #{fish} fish, #{dog} dog(s), and #{cat} cat(s)."
-  end
-
   # def sell_pets
   #   if self.pets.each {|type, mood|
   #       type.empty? == true}
@@ -78,6 +70,13 @@ class Owner
 
 
 
+  def list_pets
+    dog = self.pets[:dogs].count
+    cat = self.pets[:cats].count
+    fish = self.pets[:fishes].count
+
+   return "I have #{fish} fish, #{dog} dog(s), and #{cat} cat(s)."
+  end
 
 
 end
