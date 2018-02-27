@@ -47,7 +47,7 @@ class Owner
   end
 
   def mood
-    @mood 
+    @mood
   end
 
   def walk_dogs
