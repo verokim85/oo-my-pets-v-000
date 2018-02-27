@@ -50,6 +50,10 @@ class Owner
     @mood = "happy"
   end
 
+  def mood
+    @ mood
+  end 
+
   def walk_dogs
     mood = self.pets[:dogs][2]
   end
