@@ -62,7 +62,7 @@ class Owner
   def sell_pets
     if self.pets.each {|type, mood| type.empty? == true}
       self.pets.each {|type, mood|
-       p self.pets.mood = "nervous"}
+       p self.pets = "nervous"}
       end
     end
 
