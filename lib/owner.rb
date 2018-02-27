@@ -65,8 +65,9 @@ class Owner
         type_new.mood = "nervous"
       end
       if self.pets.mood = "nervous"
-        self.pets.shift 
+        self.pets.shift
     end
+  end
 end
 
 
