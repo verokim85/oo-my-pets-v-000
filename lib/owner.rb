@@ -1,5 +1,5 @@
 class Owner
-  attr_accessor :name, :pets, :mood
+  attr_accessor :name, :pets
   attr_reader :species
 
   @@all = []
@@ -48,7 +48,7 @@ class Owner
 
 
   def walk_dogs
-    self.pets[:dogs].mood = "happy"
+    pets[:dogs].mood = "happy"
   end
 end
 
