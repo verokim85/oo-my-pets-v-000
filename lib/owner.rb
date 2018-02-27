@@ -40,5 +40,10 @@ class Owner
     pets[:cats].count
   end
 
+  def buy_dog(name)
+    dog = Dog.new(name)
+    pets[:dogs] << dog
+    pet[:dogs].count
+  end
 
 end
