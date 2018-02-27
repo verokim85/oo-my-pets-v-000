@@ -60,8 +60,12 @@ class Owner
   end
 
   def list_pets
+    dog = self.pets[:dogs]
+    cat = self.pets[:cats]
+    fish = self.pets[:fishes]
+
     
-  end 
+  end
 
   # def sell_pets
   #   if self.pets.each {|type, mood|
@@ -71,7 +75,7 @@ class Owner
   #     end
   #   end
 
-    
+
 
 
 
