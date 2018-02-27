@@ -63,7 +63,7 @@ class Owner
   p  if self.pets.each {|type, mood| type.empty? == true}
       self.pets.mood = "nervous"
       end
-    end
+end
 
 
   def list_pets
