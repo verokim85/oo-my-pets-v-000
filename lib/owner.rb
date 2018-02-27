@@ -64,7 +64,7 @@ class Owner
       arr.each do |type_new|
         type_new.mood = "nervous"
       end
-      
+
     end
   end
 end
