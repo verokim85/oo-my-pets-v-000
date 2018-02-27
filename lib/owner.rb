@@ -60,8 +60,9 @@ class Owner
   end
 
   def sell_pets
-   self.pets.each {|type, arr|
-      arr.each {|type_new|
+   self.pets.each do |type, arr|
+      arr.each do |type_new|
+      end 
     end
 end
 
