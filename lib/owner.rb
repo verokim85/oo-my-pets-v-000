@@ -47,7 +47,7 @@ class Owner
   end
 
   def mood=(mood)
-    @mood = "happy"
+p    @mood = "happy"
   end
 
   def mood
