@@ -46,6 +46,9 @@ class Owner
     pets[:dogs].count
   end
 
+  def mood=mood
+    @mood = mood
+  end
 
   def walk_dogs
     pets[:dogs] = "happy"
