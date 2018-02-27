@@ -35,7 +35,7 @@ class Owner
   end
 
   def buy_cat(name)
-    fish = Fish.new(name)
+    fat = Cat.new(name)
     pets[:cats] << cat
     pets[:cats].count
   end
