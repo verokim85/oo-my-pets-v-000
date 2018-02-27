@@ -56,7 +56,7 @@ p    @mood = "happy"
   end
 
   def walk_dogs
-    mood = self.pets[:dogs][2]
+   self.pets[:dogs][2].mood = "happy"
   end
 
 
