@@ -64,7 +64,7 @@ class Owner
     cat = self.pets[:cats].count
     fish = self.pets[:fishes].count
 
-p   puts "I have #{fish} fish, #{dog} dog(s), and #{cat} cat(s)."
+p   return "I have #{fish} fish, #{dog} dog(s), and #{cat} cat(s)."
   end
 
   # def sell_pets
