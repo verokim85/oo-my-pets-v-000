@@ -60,7 +60,7 @@ class Owner
   end
 
   def list_pets
-  p dog = self.pets[:dogs].count
+   dog = self.pets[:dogs].count
     cat = self.pets[:cats].count
     fish = self.pets[:fishes].count
 
