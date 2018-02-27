@@ -64,9 +64,8 @@ class Owner
       arr.each do |type_new|
         type_new.mood = "nervous"
       end
-      type = []
     end
-    p self.pets
+    
 end
 
 
