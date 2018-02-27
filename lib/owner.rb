@@ -46,10 +46,6 @@ class Owner
     pets[:dogs].count
   end
 
-  # def mood
-  #   @mood
-  # end
-
   def walk_dogs
   p  self.pets[:dogs][2]=("happy")
   end
